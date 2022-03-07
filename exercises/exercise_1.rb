@@ -7,16 +7,23 @@ puts "----------"
 burnaby = Store.new
 richmond = Store.new
 gastown = Store.new
+
+burnaby.name = "Burnaby"
 burnaby.annual_revenue = 300000
 burnaby.mens_apparel = true
 burnaby.womens_apparel = true
-burnaby.save
+
+richmond.name = "Richmond"
 richmond.annual_revenue = 1260000
 richmond.mens_apparel = false
 richmond.womens_apparel = true
+
+gastown.name = "Gastown"
 gastown.annual_revenue = 190000
 gastown.mens_apparel = true
 gastown.womens_apparel = false
+
+burnaby.save
 richmond.save
 gastown.save
 # richmond = Store.new(1260000, false, true,)
