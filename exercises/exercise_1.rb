@@ -22,4 +22,4 @@ gastown.save
 # richmond = Store.new(1260000, false, true,)
 # gastwon = Store.new(190000, true, false)
 
-puts Store.count
+puts "this is store count: #{Store.count}"
